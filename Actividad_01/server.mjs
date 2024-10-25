@@ -1,7 +1,7 @@
 import express from 'express';
 
-const app = express();
-const PORT = 3000;
+const app = express(); // Crea una instancia express
+const PORT = 3000; // Configura el puerto que escuchara el servidor 
 
 // Ruta GET con parámetro de ruta
 // Solicitud: http://localhost:3000/user/123
